@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SDL2 on 蓝小狼的博客</title>
+    <link>https://whxlxl.github.io/categories/sdl2/</link>
+    <description>Recent content in SDL2 on 蓝小狼的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cmn-Hans</language>
+    <lastBuildDate>Mon, 13 May 2019 15:46:50 +0800</lastBuildDate>
+    
+	<atom:link href="https://whxlxl.github.io/categories/sdl2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SDL2__01简介</title>
+      <link>https://whxlxl.github.io/post/sdl2/sdl2__01/</link>
+      <pubDate>Mon, 13 May 2019 15:46:50 +0800</pubDate>
+      
+      <guid>https://whxlxl.github.io/post/sdl2/sdl2__01/</guid>
+      <description>&lt;h1 id=&#34;sdl2-01简介&#34;&gt;SDL2__01简介&lt;/h1&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

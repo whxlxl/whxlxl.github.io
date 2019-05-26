@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+SDL2__01简介
+</title>
+
+  
+  
+  <meta name="author" content="蓝小狼" />
+  <meta name="description" content="SDL2__01简介" />
+
+
+
+<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+
+
+<meta name="generator" content="Hugo 0.55.5" />
+
+
+<link rel="canonical" href="https://whxlxl.github.io/post/sdl2/sdl2__01/" />
+<link rel="alternative" href="/index.xml" title="蓝小狼的博客" type="application/atom+xml" />
+
+<link href="/css/semantic.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="/css/site.css" />
+
+
+</head>
+
+<body>
+  <div class="flip-container">
+    <div class="flipper">
+      <section class="front">
+        
+<nav class="ui top secondary menu">
+  <div class="item">
+    <i class="inverted big link bullseye icon dream-flip-toggle" title="翻转！"></i>
+  </div>
+  <div class="item">
+    <a href="/">
+      <i class="inverted big link home icon" title="首页"></i>
+    </a>
+  </div>
+</nav>
+ 
+<div class="ui centered grid">
+  <div class="fifteen wide mobile fifteen wide tablet eleven wide computer column post-list post-single-main">
+
+    <section class="ui secondary top attached black segment">
+      <a class="ui black right corner label" href="javascript:void(0)" onclick="savePostAsImg()">
+        <i class="save icon"></i>
+      </a>
+      <header>
+        <h1 class="ui header">
+          SDL2__01简介
+          <div class="sub header">@ 蓝小狼 · May 13, 2019 · 2 min read · 更新于 May 13, 2019</div>
+        </h1>
+      </header>
+      <article class="post-content" style="margin-top: 2rem; font-size: 1.4rem;"><h1 id="sdl2-01简介">SDL2__01简介</h1>
+
+<h2 id="1-关于">1. 关于</h2>
+
+<p>SDL（Simple DirectMedia Layer）是一套开放源代码的跨平台多媒体开发库，
+  使用C语言写成。SDL提供了数种控制图像、声音、输出入的函数，让开发者只
+  要用相同或是相似的代码就可以开发出跨多个平台（Linux、Windows、Mac OS
+  X等）的应用软件。目前SDL多用于开发游戏、模拟器、媒体播放器等多媒体应用领域。<br />
+   <img src="SDL2/sdl.png," alt="SDL2" title="SDL2" /></p>
+
+<h2 id="2-功能">2. 功能</h2>
+
+<ul>
+<li>视频<br /></li>
+<li>事件<br />
+
+<ol>
+<li>通用的有以下几种:<br />
+
+<ul>
+<li>应用程序的visibility发生改变<br /></li>
+<li>键盘输入<br /></li>
+<li>鼠标输入<br /></li>
+<li>用户要求的退出<br /></li>
+</ul></li>
+<li>安卓的有以下几种:<br />
+
+<ul>
+<li>触摸输入</li>
+<li>文本输入（可以接收汉字）</li>
+<li>安卓activity的改变输入</li>
+</ul></li>
+<li>线程安全的事件队列</li>
+</ol></li>
+<li>音频<br />
+ 设置8位和16位的音频，单声道或者立体声，如果格式硬件不支持，可以选择转换。
+由独立的线程执行音频部分，并提供用户回调（callback）机制。
+设计上考虑到了客户定制的软混音器，但实际上在例程中就包含了一个完整的音频/音乐输出库。<br /></li>
+<li>CD音频<br />
+ 完整的CD音频控制API<br /></li>
+<li>线程<br />
+ 简单的线程创建API用于同步的简单的二进制信号量（semaphores）<br /></li>
+
+<li><p>定时器<br />
+ 读取已流逝的毫秒数。<br />
+ 等待指定的毫秒数。</p>
+
+<h2 id="3-支持的系统">3. 支持的系统</h2></li>
+
+<li><p>linux（android）</p></li>
+
+<li><p>windows</p></li>
+
+<li><p>macos</p>
+
+<h2 id="4-其他">4. 其他</h2>
+
+<p>SDL内置了调用OpenGL的函数。<br />
+通过使用SDL_image、SDL_ttf、SDL_mixer、SDL_net等外部扩展库，可以轻松实现JPG、PNG、TIFF图像的加载使用，TrueType字体的使用，MP3文件的使用、网络相关的使用等。</p>
+
+<p>SDL也有其他语言的包装，可以在这里查看　SDL用C语言写成，但是可以很容易在C++下面工作，并且SDL绑定了许多其它的语言，
+这其中就包括Ada, C#, Eiffel, Erlang, Euphoria, Guile, Haskell, Java, Lisp, Lua, ML, Objective C, Pascal, Perl, PHP, Pike, Pliant, Python, Ruby, and Smalltalk。<br />
+包装得比较好的是python语言的pygame。不过仍然建议你熟悉c/c++环境下的SDL后再使用，会得心应手许多。</p></li>
+</ul></article>
+    </section>
+
+    <footer class="ui secondary attached segment dream-tags">
+      
+      
+      <a class="ui label" href="/tags/sdl2" title="sdl2">sdl2</a>
+      
+      
+    </footer>
+
+    
+
+    
+
+  </div>
+  <div class="fifteen wide mobile fifteen wide tablet four wide computer column">
+
+    <section class="ui top attached center aligned inverted segment">
+  <div class="ui small circular image">
+    
+    <img src="https://whxlxl.github.io/img/m/m.jpg">
+    
+  </div>
+  <h3 class="ui header">蓝小狼的博客<div class="sub header" style="color: white;">QQ:913413756</div>
+  </h3>
+
+  <div class="ui inverted horizontal list">
+    
+    <a class="item" href="/post">
+      <i class="archive icon" title="归档"></i>
+    </a>
+    
+    <a class="item" href="/tags">
+      <i class="tags icon" title="所有标签"></i>
+    </a>
+    <a class="item" href="/categories">
+      <i class="inverted cubes icon" title="所有分类"></i>
+    </a>
+  </div>
+
+  <a id="tag-category-pop" class="ui red right corner label">
+    <i class="pointing down icon" title="点击弹出标签和分类"></i>
+  </a>
+</section>
+
+
+<section class="ui attached center aligned inverted segment dream-header-tags dream-tags">
+  
+  <a class="ui label" href="/tags/allegro5" title="allegro5">allegro5</a>
+  
+  <a class="ui label" href="/tags/c/c&#43;&#43;" title="c/c&#43;&#43;">c/c&#43;&#43;</a>
+  
+  <a class="ui label" href="/tags/html" title="html">html</a>
+  
+  <a class="ui label" href="/tags/java" title="java">java</a>
+  
+  <a class="ui label" href="/tags/javascript" title="javascript">javascript</a>
+  
+  <a class="ui label" href="/tags/libgdx" title="libgdx">libgdx</a>
+  
+  <a class="ui label" href="/tags/sdl2" title="sdl2">sdl2</a>
+  
+</section>
+
+
+
+<section class="ui attached inverted segment dream-categories">
+  <div class="ui inverted accordion">
+    
+    <div class="title">
+      <i class="dropdown icon"></i>
+      <a href="/categories/allegro5" class="item" style="color: white;">allegro5</a>
+    </div>
+    <div class="content">
+      <div class="ui link inverted list">
+      
+      <div class="item" style="padding-left: 24px;">
+        <i class="cocktail icon"></i>
+        <div class="content">
+          <a href="https://whxlxl.github.io/post/allegro5/allegro5_6/" class="item">Allegro5_6</a>
+        </div>
+      </div>
+      
+      <div class="item" style="padding-left: 24px;">
+        <i class="cocktail icon"></i>
+        <div class="content">
+          <a href="https://whxlxl.github.io/post/allegro5/allegro5_5/" class="item">Allegro5_5</a>
+        </div>
+      </div>
+      
+      <div class="item" style="padding-left: 24px;">
+        <i class="cocktail icon"></i>
+        <div class="content">
+          <a href="https://whxlxl.github.io/post/allegro5/allegro5_4/" class="item">Allegro5_4</a>
+        </div>
+      </div>
+      
+      <div class="item" style="padding-left: 24px;">
+        <i class="cocktail icon"></i>
+        <div class="content">
+          <a href="https://whxlxl.github.io/post/allegro5/allegro5_3/" class="item">Allegro5_3</a>
+        </div>
+      </div>
+      
+      <div class="item" style="padding-left: 24px;">
+        <i class="cocktail icon"></i>
+        <div class="content">
+          <a href="https://whxlxl.github.io/post/allegro5/allegro5_2/" class="item">Allegro5_2 安装及配置</a>
+        </div>
+      </div>
+      
+      <div class="item" style="padding-left: 24px;">
+        <i class="cocktail icon"></i>
+        <div class="content">
+          <a href="https://whxlxl.github.io/post/allegro5/allegro5_1/" class="item">Allegro5_#1 简介</a>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+    
+    <div class="title">
+      <i class="dropdown icon"></i>
+      <a href="/categories/sdl2" class="item" style="color: white;">sdl2</a>
+    </div>
+    <div class="content">
+      <div class="ui link inverted list">
+      
+      <div class="item" style="padding-left: 24px;">
+        <i class="cocktail icon"></i>
+        <div class="content">
+          <a href="https://whxlxl.github.io/post/sdl2/sdl2__01/" class="item">SDL2__01简介</a>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+    
+    <div class="title">
+      <i class="dropdown icon"></i>
+      <a href="/categories/test" class="item" style="color: white;">test</a>
+    </div>
+    <div class="content">
+      <div class="ui link inverted list">
+      
+      <div class="item" style="padding-left: 24px;">
+        <i class="cocktail icon"></i>
+        <div class="content">
+          <a href="https://whxlxl.github.io/post/articletitle/" class="item">demo</a>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+
+<section class="ui bottom attached center aligned inverted segment">
+    
+    <p>© 2019 蓝小狼的博客</p>
+    
+    <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
+</section>
+
+
+  </div>
+</div>
+
+      </section>
+      <section class="back">
+        <nav class="ui top secondary menu" style="overflow-x: auto">
+  <div class="item">
+    <i class="inverted big link bullseye icon dream-flip-toggle" title="翻转！"></i>
+  </div>
+  
+  <div class="item">
+    <a href="mailto:913413756@qq.com">
+      <i class="inverted big mail icon" title="email"></i>
+    </a>
+  </div>
+  
+  
+  <div class="item">
+    <a href="https://github.com/whxlxl" target="_blank">
+      <i class="inverted big github icon" title="github"></i>
+    </a>
+  </div>
+  
+  
+  
+  
+</nav>
+
+<div class="ui centered grid about">
+  <div class="fifteen wide mobile fifteen wide tablet fifteen wide computer column">
+
+    <section class="ui stacked segments">
+      <header class="ui inverted segment">
+        <h2 class="ui header">
+          About
+        </h2>
+      </header>
+
+      <article class="ui inverted segment back-about">
+        <div class="ui stackable three column grid">
+          <div class="column">
+              
+              暂无
+              
+          </div>
+          <div class="column">
+              
+          </div>
+          <div class="column">
+              
+          </div>
+        </div>
+      </article>
+
+      
+
+      
+      
+    </section>
+
+  </div>
+</div>
+
+      </section>
+    </div>
+  </div>
+
+  
+<script src="/js/jquery.min.js"></script>
+<script src="/js/semantic.min.js"></script>
+<script src="/js/html2canvas.min.js"></script>
+<script src="/js/bg.js"></script>
+<script src="/js/site.js"></script>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-98295641-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+</body>
+
+</html>

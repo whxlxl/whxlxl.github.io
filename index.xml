@@ -6,10 +6,73 @@
     <description>Recent content on 蓝小狼的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cmn-Hans</language>
-    <lastBuildDate>Sun, 12 May 2019 16:42:08 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 May 2019 08:45:47 +0800</lastBuildDate>
     
 	<atom:link href="https://whxlxl.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Allegro5_6</title>
+      <link>https://whxlxl.github.io/post/allegro5/allegro5_6/</link>
+      <pubDate>Sun, 26 May 2019 08:45:47 +0800</pubDate>
+      
+      <guid>https://whxlxl.github.io/post/allegro5/allegro5_6/</guid>
+      <description>&lt;p&gt;Cut out summary from your post content here.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Allegro5_5</title>
+      <link>https://whxlxl.github.io/post/allegro5/allegro5_5/</link>
+      <pubDate>Sun, 26 May 2019 08:45:43 +0800</pubDate>
+      
+      <guid>https://whxlxl.github.io/post/allegro5/allegro5_5/</guid>
+      <description>&lt;p&gt;Cut out summary from your post content here.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Allegro5_4</title>
+      <link>https://whxlxl.github.io/post/allegro5/allegro5_4/</link>
+      <pubDate>Sun, 26 May 2019 08:45:37 +0800</pubDate>
+      
+      <guid>https://whxlxl.github.io/post/allegro5/allegro5_4/</guid>
+      <description>&lt;p&gt;Cut out summary from your post content here.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Allegro5_3</title>
+      <link>https://whxlxl.github.io/post/allegro5/allegro5_3/</link>
+      <pubDate>Sun, 26 May 2019 08:45:33 +0800</pubDate>
+      
+      <guid>https://whxlxl.github.io/post/allegro5/allegro5_3/</guid>
+      <description>&lt;p&gt;Cut out summary from your post content here.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Allegro5_2 安装及配置</title>
+      <link>https://whxlxl.github.io/post/allegro5/allegro5_2/</link>
+      <pubDate>Sun, 26 May 2019 08:45:28 +0800</pubDate>
+      
+      <guid>https://whxlxl.github.io/post/allegro5/allegro5_2/</guid>
+      <description>&lt;h1 id=&#34;vs20xx-安装及配置&#34;&gt;VS20xx 安装及配置&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>Allegro5_#1 简介</title>
+      <link>https://whxlxl.github.io/post/allegro5/allegro5_1/</link>
+      <pubDate>Sun, 26 May 2019 08:26:56 +0800</pubDate>
+      
+      <guid>https://whxlxl.github.io/post/allegro5/allegro5_1/</guid>
+      <description>&lt;h1 id=&#34;allegro5简介&#34;&gt;allegro5简介&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
+      <title>SDL2__01简介</title>
+      <link>https://whxlxl.github.io/post/sdl2/sdl2__01/</link>
+      <pubDate>Mon, 13 May 2019 15:46:50 +0800</pubDate>
+      
+      <guid>https://whxlxl.github.io/post/sdl2/sdl2__01/</guid>
+      <description>&lt;h1 id=&#34;sdl2-01简介&#34;&gt;SDL2__01简介&lt;/h1&gt;</description>
+    </item>
     
     <item>
       <title>demo</title>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>javaScript on 蓝小狼的博客</title>
+    <title>javascript on 蓝小狼的博客</title>
     <link>https://whxlxl.github.io/tags/javascript/</link>
-    <description>Recent content in javaScript on 蓝小狼的博客</description>
+    <description>Recent content in javascript on 蓝小狼的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cmn-Hans</language>
     <lastBuildDate>Sun, 12 May 2019 16:42:08 +0800</lastBuildDate>

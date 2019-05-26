@@ -6,26 +6,26 @@
     <description>Recent content in Tags on 蓝小狼的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cmn-Hans</language>
-    <lastBuildDate>Sun, 12 May 2019 16:42:08 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 May 2019 08:45:47 +0800</lastBuildDate>
     
 	<atom:link href="https://whxlxl.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>SDL2</title>
-      <link>https://whxlxl.github.io/tags/sdl2/</link>
-      <pubDate>Sun, 12 May 2019 16:42:08 +0800</pubDate>
+      <title>allegro5</title>
+      <link>https://whxlxl.github.io/tags/allegro5/</link>
+      <pubDate>Sun, 26 May 2019 08:45:47 +0800</pubDate>
       
-      <guid>https://whxlxl.github.io/tags/sdl2/</guid>
+      <guid>https://whxlxl.github.io/tags/allegro5/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>allegro5</title>
-      <link>https://whxlxl.github.io/tags/allegro5/</link>
-      <pubDate>Sun, 12 May 2019 16:42:08 +0800</pubDate>
+      <title>sdl2</title>
+      <link>https://whxlxl.github.io/tags/sdl2/</link>
+      <pubDate>Mon, 13 May 2019 15:46:50 +0800</pubDate>
       
-      <guid>https://whxlxl.github.io/tags/allegro5/</guid>
+      <guid>https://whxlxl.github.io/tags/sdl2/</guid>
       <description></description>
     </item>
     
@@ -57,7 +57,7 @@
     </item>
     
     <item>
-      <title>javaScript</title>
+      <title>javascript</title>
       <link>https://whxlxl.github.io/tags/javascript/</link>
       <pubDate>Sun, 12 May 2019 16:42:08 +0800</pubDate>
       
